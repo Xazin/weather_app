@@ -39,3 +39,9 @@ ACCUWEATHER_API_KEY = "9oibITyeCGz28easvrGctCujTVAqgtMG"
 ```
 
 _Disclaimer: The above is not a proper API key, it's a randomly generated string that resembles the API keys that AccuWeather uses._
+
+### Generate Environment
+
+To keep environment variables safe, we use `envied` along with `envied_generator`. These requires the environment values to be generated.
+
+Do this using the command `dart run build_runner build -d`.
