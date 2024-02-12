@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:weather_app/features/home/home_screen.dart';
+import 'package:weather_app/features/current_forecast/current_forecast_screen.dart';
 import 'package:weather_app/theme/theme.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       theme: WeatherTheme.lightTheme,
       darkTheme: WeatherTheme.darkTheme,
-      home: const HomeScreen(),
+      home: const CurrentForecastScreen(),
     );
   }
 }
